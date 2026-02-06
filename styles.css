@@ -1,0 +1,304 @@
+/* Author: lara
+Date: 25 01 26
+Version: final assignment 
+*/
+
+/*
+this CSS style sheet was validated with the The W3C CSS Validation Service and no errors were found
+*/
+
+/*GLOBAL SETTING
+----------------------------------------
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+
+body {
+	font-size: 16px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	color: #211d1c;
+	margin: 0;
+}
+
+#wrapper {
+	width: 1400px; 
+	margin: 0;
+	height: 100%;
+}
+
+
+h1 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.6em;
+	font-weight: 700;
+}
+
+a {
+	color: #225c71; 
+	text-decoration: none;
+}
+
+
+.button {
+	padding: 8px;
+	border:solid;
+	border-width: thin;
+	border-radius: 4px;
+	border-color: #ffffff;
+	text-decoration: none;
+	color:#ffffff;
+	background-color: #FF7900
+}
+
+
+/* HEADER
+----------------------------------------
+*/
+
+header {
+	height: 90px;
+	color: #ffffff;	
+}
+
+#index {	
+	position: absolute;
+	top: 0; left: 0;
+	height: 675px;
+	color: #ffffff;	
+}
+
+#main_icon {
+	position: relative;
+	top: 20px; left: 20px;
+	height: 60px;
+	z-index: 1;
+}
+
+#sub-page_nav_image {
+	position: absolute;
+	top: 0; left:0;
+}
+
+
+header p {
+	padding-top: 550px; padding-left: 20px;
+	font-size: 1.6em;
+	z-index: 1;
+}
+
+
+.header_image {
+	opacity: 0.2;
+	position: absolute;
+	top: 90px; left:0;
+	z-index: 3;
+}
+
+.sub-page_headings {
+	z-index: 1;
+	position: absolute;
+	top: 150px; left:0;
+	font-size: 2em;
+	padding-left: 50px;
+	
+	padding-top: 250px;
+	line-height: 9px;
+}
+
+
+/* NAVIGATION
+----------------------------------------
+*/
+
+nav {
+	position: absolute;
+	top: 0; right: 0;
+	padding-top: 25px;
+	z-index: 1;
+
+}
+
+nav a {
+	color: #ffffff; /* white */
+	text-decoration: none;
+	padding: 10px 20px 20px 20px;
+}
+
+#to_hide {
+	visibility: hidden;
+}
+nav a:hover {
+	background-color: #356d81;
+}
+
+nav a:visited {
+	color: #ffffff;
+}
+
+nav ul {
+	position: relative; right: 0; 
+	padding-left: 200px;
+	list-style: none;
+}
+
+nav li {
+	display: inline;
+}
+
+#call_to_action {
+	background-color: #FF7900;
+	  border: none;
+	  color: #ffffff;
+	  padding: 10px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	 position: relative; bottom: 0;
+}
+
+/* main content- index
+----------------------------------------
+*/
+main #Sub-page_main {
+	padding-left: 50px;
+}
+
+
+#introduction {
+	padding: 50px;
+}
+
+#three-columns  {
+	display:flex;
+	margin: 30px 0; 
+	text-align: center
+}
+
+#three-columns aside{
+padding: 20px 30px 60px 30px;
+background-color: #4389a2;
+
+}
+
+#three-columns img {
+	padding-top: 20px;
+	border-radius: 30px 30px 0 0;
+	width: 400px;
+}
+
+#three-columns div {
+	background-color: #ffffff;
+	padding:  50px 60px 50px;
+	border-radius: 0 0 30px 30px;
+}
+
+
+/* main content - sub-page
+----------------------------------------
+*/
+#fact_zone {
+	margin-top: 510px;
+	background-color: #4389a2;
+	width:1400px;
+	padding: 20px 0 20px 0;
+}
+
+#fact_zone section {
+	background-color: #ffffff;
+	display: flex;
+	margin: 20px;
+	border-radius: 15px;
+}
+
+#fact_zone div {
+	margin: 50px;
+}
+
+#fact_zone img {
+	position: relative;
+	align-content: center;
+	border-radius: 15px;
+	width: 500px;
+	height: auto;
+	flex: none;
+}
+
+#shark_finning {
+	margin-left: -50px;
+	margin-right: -50px;
+}
+
+#shark_finning h2 {
+	margin-left: 20px;
+}
+
+/* donate page
+----------------------------------------
+*/
+
+
+#donate_main {
+	background-color: #4389a2;
+	width:1400px;
+	padding: 20px 0 20px 0;
+}
+
+#donate_main section {
+	background-color: #ffffff;
+	display: flex;
+	margin: 20px;
+	border-radius: 15px;
+}
+
+#donate_main div {
+margin: 50px;
+}
+
+#donate_main img {
+	position: relative;
+	align-content: center;
+	border-radius: 15px;
+	width: 400px;
+	height: auto;
+	flex: none
+	
+}
+
+.donate_heading {
+	margin-bottom: 20px;
+	margin-top: -20px;
+	padding: 50px;
+	background-color: #003153;
+	color: #ffffff;
+}
+
+
+
+/* FOOTER
+----------------------------------------
+*/
+footer {
+	display: flex;
+}
+
+footer address {
+	padding-top: 15px;
+	padding-left: 800px;
+}
+
+footer ul {
+	color: #211d1c;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.shark_facts_footer {
+	position: absolute;
+}
